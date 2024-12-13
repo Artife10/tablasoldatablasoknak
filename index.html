@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagram</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="onStart()">
+    <h1>Meno tablazatos oldal tablazatosoknak</h1>
+    <table id="tabla">
+        <tr>
+            <th>Oszlop1</th>
+            <th>Oszlop2</th>
+            <th>Oszlop3</th>
+        </tr>
+        
+    </table>
+
+    <button onclick="showchart()">DIAGRAM</button>
+
+    <div id="chart"><div id="myPlot" style="width:100%;max-width:700px"></div></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
